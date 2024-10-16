@@ -29,11 +29,10 @@ ex) sudo apt install ros-humble-joint-state-publisher-gui
 
 5.2. urdf가 rviz에 안나왔다면 rviz에서 RobotModel -> Description File 에서 경로부분을 다시 설정  
 urdf 파일은 src/jdcobot_100_description/urdf/jdcobot_100_description.urdf 여기에 있음.  
-다운 받을 떄 패키지 경로가 바껴서 urdf 파일을 못불러오는 이유임.  
--> 이건 깃헙에 업로드된 패키지가 jdCobot100-ROS 라는 폴더 안에 있어서 그럼.    
+다운 받을 떄 패키지 경로가 바껴서 urdf 파일을 못불러오는 이유.      
 
 6.1. usb포트 권한이 없을 때 sudo chmod 777 /dev/tty* 하기. 
-이 명령어는 모든 tty포트에 모든권한 주는건데 이건 권장하지 않음. 그런데 제일 빠르므로 그냥 이거 사용  
-sudo usermod -a -G dialout <username> 해서 사용자를 dialout 그룹에 추가하는 것을 추천 이후 재부팅해야 반영됨  
+이 명령어는 모든 tty포트에 모든권한 주는건데 이건 권장하지 않음.    
+sudo usermod -a -G dialout <username> 해서 사용자를 dialout 그룹에 추가하는 것을 추천 이후 재부팅해야 반영됨.  
 
-6.2. USB포트 자체가 인식이 안됬을 때 oracle VM 기준으로 설정 -> USB -> USB필터 만들기 (오른쪽에 USB+ 모양) -> 컴퓨터와 연결된 포트 선택  
+6.2. USB포트 자체가 인식이 안됬을 때 oracle VM 기준으로 설정 -> USB -> USB필터 만들기 (오른쪽에 USB+ 모양) -> 컴퓨터와 연결된 포트 선택.  
