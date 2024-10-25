@@ -122,7 +122,7 @@ SOFTWARE.*/
       xyz="0 0 1" />
     <limit
       lower="0"
-      upper="0"
+      upper="3.1416"
       effort="0"
       velocity="0" />
   </joint>
@@ -180,7 +180,7 @@ SOFTWARE.*/
       xyz="0 0 1" />
     <limit
       lower="0"
-      upper="0"
+      upper="3.1416"
       effort="0"
       velocity="0" />
   </joint>
@@ -238,7 +238,7 @@ SOFTWARE.*/
       xyz="0 0 1" />
     <limit
       lower="0"
-      upper="0"
+      upper="3.1416"
       effort="0"
       velocity="0" />
   </joint>
@@ -296,7 +296,7 @@ SOFTWARE.*/
       xyz="0 0 1" />
     <limit
       lower="0"
-      upper="0"
+      upper="3.1416"
       effort="0"
       velocity="0" />
   </joint>
@@ -305,7 +305,7 @@ SOFTWARE.*/
     <inertial>
       <origin
         xyz="-2.99023149991084E-10 -4.22194639535314E-09 0.00251673324295842"
-        rpy="0 0 0" />
+        rpy="0 0 -0.085" />
       <mass
         value="0.000405354473062767" />
       <inertia
@@ -354,7 +354,7 @@ SOFTWARE.*/
       xyz="0 0 1" />
     <limit
       lower="0"
-      upper="0"
+      upper="3.1416"
       effort="0"
       velocity="0" />
   </joint>
@@ -402,7 +402,7 @@ SOFTWARE.*/
     name="joint_6"
     type="prismatic">
     <origin
-      xyz="-0.007818 0.063831 0.010521"
+      xyz="-0.007818 0.063831 0.1562"
       rpy="0 3.1416 1.5708" />
     <parent
       link="link_4" />
@@ -417,7 +417,7 @@ SOFTWARE.*/
       velocity="0" />
     <mimic
       joint="joint_5"
-      multiplier="1"
+      multiplier="0.05"
       offset="0" />
   </joint>
 </robot>
