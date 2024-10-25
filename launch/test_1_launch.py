@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 '''
 /*MIT License
 
@@ -24,8 +23,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 SOFTWARE.*/
 
 '''
-
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription

@@ -64,13 +64,9 @@ Visualization Manager:
           Value: true
         link_5:
           Value: true
-<<<<<<< HEAD
         link_6:
           Value: false
       Marker Scale: 0.3
-=======
-      Marker Scale: 1
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       Name: TF
       Show Arrows: true
       Show Axes: true
@@ -82,10 +78,7 @@ Visualization Manager:
               link_3:
                 link_4:
                   link_5:
-<<<<<<< HEAD
                   link_6:
-=======
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
                       {}
       Update Interval: 0
       Value: true

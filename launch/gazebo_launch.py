@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-﻿import os
-=======
-﻿'''
+'''
 /*MIT License
 
 Copyright (c) 2024 JD edu. http://jdedu.kr author: conner.jeong@gmail.com
@@ -27,7 +24,6 @@ SOFTWARE.*/
 '''
 
 import os
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource

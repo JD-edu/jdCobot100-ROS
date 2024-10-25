@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 '''
 /*MIT License
 
@@ -23,9 +22,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 SOFTWARE.*/
 '''
-
-
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
 import time
 import numpy as np
 import matplotlib.pyplot as plt

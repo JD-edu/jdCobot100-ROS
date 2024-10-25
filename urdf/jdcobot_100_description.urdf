@@ -2,8 +2,6 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<<<<<<< HEAD
-=======
 <!--
 /*MIT License
 
@@ -28,14 +26,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 SOFTWARE.*/
 
 -->
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
 <robot
   name="jdcobot_100_description">
   <link
     name="base_link">
     <inertial>
       <origin
-<<<<<<< HEAD
         xyz="0.00022682 -0.00017814 0.014909"
         rpy="0 0 0" />
       <mass
@@ -47,19 +43,6 @@ SOFTWARE.*/
         iyy="1.8509E-05"
         iyz="-3.3423E-08"
         izz="3.1019E-05" />
-=======
-        xyz="0.0001447 0.019679 -1.9377E-09"
-        rpy="0 0 0" />
-      <mass
-        value="0.20421" />
-      <inertia
-        ixx="0.00011212"
-        ixy="2.8603E-07"
-        ixz="-1.2297E-11"
-        iyy="0.00016707"
-        iyz="-2.1273E-12"
-        izz="0.00011109" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     </inertial>
     <visual>
       <origin
@@ -72,11 +55,7 @@ SOFTWARE.*/
       <material
         name="">
         <color
-<<<<<<< HEAD
           rgba="0.8 0.8 0.8 1" />
-=======
-          rgba="0.62745 0.62745 0.62745 1" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       </material>
     </visual>
     <collision>
@@ -93,7 +72,6 @@ SOFTWARE.*/
     name="link_1">
     <inertial>
       <origin
-<<<<<<< HEAD
         xyz="-7.7756E-10 0.017465 0.027545"
         rpy="0 0 0" />
       <mass
@@ -105,28 +83,11 @@ SOFTWARE.*/
         iyy="1.9243E-05"
         iyz="-2.021E-06"
         izz="2.3357E-05" />
-=======
-        xyz="1.0434E-08 0.0078286 0.011995"
-        rpy="-1.5708 0 0" />
-      <mass
-        value="0.028072" />
-      <inertia
-        ixx="1.3399E-05"
-        ixy="-2.047E-12"
-        ixz="8.3813E-13"
-        iyy="1.1665E-05"
-        iyz="-2.6415E-06"
-        izz="1.5368E-05" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-<<<<<<< HEAD
         rpy="0 0 0" />
-=======
-        rpy="-1.5708 0 0" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       <geometry>
         <mesh
           filename="package://jdcobot_100_description/meshes/link_1.STL" />
@@ -134,11 +95,7 @@ SOFTWARE.*/
       <material
         name="">
         <color
-<<<<<<< HEAD
           rgba="0.8 0.8 0.8 1" />
-=======
-          rgba="0.96078 0.96078 0.94902 1" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       </material>
     </visual>
     <collision>
@@ -155,39 +112,24 @@ SOFTWARE.*/
     name="joint_1"
     type="revolute">
     <origin
-<<<<<<< HEAD
       xyz="0 0 0.039955"
       rpy="0 0 -1.5708" />
-=======
-      xyz="0 0 0.04"
-      rpy="1.5708 0 0" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     <parent
       link="base_link" />
     <child
       link="link_1" />
     <axis
-<<<<<<< HEAD
       xyz="0 0 1" />
     <limit
       lower="0"
       upper="0"
       effort="0"
       velocity="0" />
-=======
-      xyz="0 1 0" />
-    <limit 
-      lower="0"
-      upper="3.14"
-      effort="100"
-      velocity="3" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
   </joint>
   <link
     name="link_2">
     <inertial>
       <origin
-<<<<<<< HEAD
         xyz="-0.000181907929320544 0.0443769507690996 -0.0085382930319754"
         rpy="0 0 0" />
       <mass
@@ -199,19 +141,6 @@ SOFTWARE.*/
         iyy="1.93086037561252E-06"
         iyz="1.9557739081659E-06"
         izz="7.76878615822096E-06" />
-=======
-        xyz="0.044976 -0.0081943 -0.00014958"
-        rpy="0 0 0" />
-      <mass
-        value="0.020001" />
-      <inertia
-        ixx="2.9259E-06"
-        ixy="4.9182E-06"
-        ixz="4.6066E-09"
-        iyy="1.7482E-05"
-        iyz="-1.0382E-09"
-        izz="1.9372E-05" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     </inertial>
     <visual>
       <origin
@@ -224,11 +153,7 @@ SOFTWARE.*/
       <material
         name="">
         <color
-<<<<<<< HEAD
           rgba="0.8 0.8 0.8 1" />
-=======
-          rgba="0.62745 0.62745 0.62745 1" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       </material>
     </visual>
     <collision>
@@ -245,39 +170,24 @@ SOFTWARE.*/
     name="joint_2"
     type="revolute">
     <origin
-<<<<<<< HEAD
       xyz="0 0 0.045445"
       rpy="1.5708 1.5708 0" />
-=======
-      xyz="0 0.03045 0"
-      rpy="-1.5708 3.1416 3.1416" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     <parent
       link="link_1" />
     <child
       link="link_2" />
     <axis
-<<<<<<< HEAD
       xyz="0 0 1" />
     <limit
       lower="0"
       upper="0"
       effort="0"
       velocity="0" />
-=======
-      xyz="0 1 0" />
-    <limit 
-      lower="0"
-      upper="3.14"
-      effort="100"
-      velocity="3" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
   </joint>
   <link
     name="link_3">
     <inertial>
       <origin
-<<<<<<< HEAD
         xyz="-0.000185945263925889 0.0453619494857649 -0.00876236391120723"
         rpy="0 0 0" />
       <mass
@@ -289,19 +199,6 @@ SOFTWARE.*/
         iyy="1.92632417274386E-06"
         iyz="1.95577390847603E-06"
         izz="7.72844628527868E-06" />
-=======
-        xyz="0.044976 -0.0078943 -0.00014958"
-        rpy="0 0 0" />
-      <mass
-        value="0.020001" />
-      <inertia
-        ixx="2.9259E-06"
-        ixy="4.9182E-06"
-        ixz="4.6066E-09"
-        iyy="1.7482E-05"
-        iyz="-1.0382E-09"
-        izz="1.9372E-05" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     </inertial>
     <visual>
       <origin
@@ -314,11 +211,7 @@ SOFTWARE.*/
       <material
         name="">
         <color
-<<<<<<< HEAD
           rgba="0.8 0.8 0.8 1" />
-=======
-          rgba="0.62745 0.62745 0.62745 1" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       </material>
     </visual>
     <collision>
@@ -335,39 +228,24 @@ SOFTWARE.*/
     name="joint_3"
     type="revolute">
     <origin
-<<<<<<< HEAD
       xyz="0 0.07545 0"
       rpy="0 0 -1.5708" />
-=======
-      xyz="0.07565 0 -0.0001547"
-      rpy="0 -1.5708 0" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     <parent
       link="link_2" />
     <child
       link="link_3" />
     <axis
-<<<<<<< HEAD
       xyz="0 0 1" />
     <limit
       lower="0"
       upper="0"
       effort="0"
       velocity="0" />
-=======
-      xyz="0 1 0" />
-    <limit 
-      lower="0"
-      upper="3.14"
-      effort="100"
-      velocity="3" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
   </joint>
   <link
     name="link_4">
     <inertial>
       <origin
-<<<<<<< HEAD
         xyz="0.00238354888808976 0.0406979815377837 -0.00470573522833003"
         rpy="0 0 0" />
       <mass
@@ -379,28 +257,11 @@ SOFTWARE.*/
         iyy="1.91544656050899E-06"
         iyz="5.72900294112311E-07"
         izz="5.3271513117511E-06" />
-=======
-        xyz="0.010138 -0.0022824 -0.00014019"
-        rpy="3.1416 0 0" />
-      <mass
-        value="0.007057" />
-      <inertia
-        ixx="5.5769E-07"
-        ixy="-3.8132E-07"
-        ixz="1.0384E-09"
-        iyy="1.769E-06"
-        iyz="2.6635E-11"
-        izz="1.8807E-06" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-<<<<<<< HEAD
         rpy="0 0 0" />
-=======
-        rpy="3.1416 0 0" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       <geometry>
         <mesh
           filename="package://jdcobot_100_description/meshes/link_4.STL" />
@@ -408,11 +269,7 @@ SOFTWARE.*/
       <material
         name="">
         <color
-<<<<<<< HEAD
           rgba="0.8 0.8 0.8 1" />
-=======
-          rgba="0.62745 0.62745 0.62745 1" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
       </material>
     </visual>
     <collision>
@@ -429,19 +286,13 @@ SOFTWARE.*/
     name="joint_4"
     type="revolute">
     <origin
-<<<<<<< HEAD
       xyz="0 0.07545 0"
       rpy="0 0 -1.5708" />
-=======
-      xyz="0.07565 0 -0.0001547"
-      rpy="3.1416 -1.5708 3.1416" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     <parent
       link="link_3" />
     <child
       link="link_4" />
     <axis
-<<<<<<< HEAD
       xyz="0 0 1" />
     <limit
       lower="0"
@@ -568,13 +419,5 @@ SOFTWARE.*/
       joint="joint_5"
       multiplier="1"
       offset="0" />
-=======
-      xyz="0 1 0" />
-    <limit 
-      lower="0"
-      upper="3.14"
-      effort="100"
-      velocity="3" />
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
   </joint>
 </robot>

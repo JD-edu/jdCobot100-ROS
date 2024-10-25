@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 '''
 /*MIT License
 
@@ -24,7 +23,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 SOFTWARE.*/
 '''
 
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
@@ -46,7 +44,6 @@ def generate_launch_description():
             'use_sim_time',
             default_value='false',),
         Node(
-<<<<<<< HEAD
 	    package='robot_state_publisher',
 	    executable='robot_state_publisher',
 	    name='robot_state_publisher',
@@ -62,81 +59,43 @@ def generate_launch_description():
 		    'joint_4': 1.5708,
 		    'joint_5': 0,
 		    'joint_6': 0
-		}
+		    }
 	    }]
-	),
+	    ),
         Node(
-=======
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui',
-            name='joint_state_publisher_gui',
-            output='screen',
-            parameters=[{
-		'use_sim_time': use_sim_time,
-		'robot_description': robot_desc,
-<<<<<<< HEAD
+        package='joint_state_publisher_gui',
+        executable='joint_state_publisher_gui',
+        name='joint_state_publisher_gui',
+        output='screen',
+        parameters=[{
+        'use_sim_time': use_sim_time,
+        'robot_description': robot_desc,
 		'source_list': ['joint_1', 'joint_2', 'joint_3', 'joint_4','joint_5','joint_6'],
-=======
-		'source_list': ['joint_1', 'joint_2', 'joint_3', 'joint_4'],
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
 		'zeros': {
 		    'joint_1': 1.5708,
 		    'joint_2': 1.5708,
 		    'joint_3': 1.5708,
-<<<<<<< HEAD
 		    'joint_4': 1.5708,
 		    'joint_5': 0,
 		    'joint_6': 0
-		}
+		    }
 	    }]
         ),
-=======
-		    'joint_4': 1.5708
-		}
-	    }]
-        ),
-		Node(
-			package='robot_state_publisher',
-			executable='robot_state_publisher',
-			name='robot_state_publisher',
-			output='screen',
-			parameters=[{
-			'use_sim_time': use_sim_time,
-			'robot_description': robot_desc,
-			'source_list': ['joint_1', 'joint_2', 'joint_3', 'joint_4'],
-			'zeros': {
-				'joint_1': 1.5708,
-				'joint_2': 1.5708,
-				'joint_3': 1.5708,
-				'joint_4': 1.5708
-			}
-			}]
-		),
         Node(
-			package='jdcobot_100_description',
-			executable='jdcobot_control',
-			name='jdcobot_control',
-			output='screen'
-		),
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
+            package='jdcobot_100_description',
+            executable='jdcobot_control',
+            name='jdcobot_control',
+            output='screen'
+        ),
         Node(
             package='rviz2',
             executable='rviz2',
             name='rviz2',
             output='screen',
-<<<<<<< HEAD
-            arguments=['-d', os.path.join(get_package_share_directory('jdcobot_100_description'),'rviz','rviz_set.rviz')]),
-=======
             arguments=['-d', os.path.join(get_package_share_directory('jdcobot_100_description'),'rviz','rviz_set.rviz')]
 		),
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     ])
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-=======
-    print(os.path.join(get_package_share_directory('jdcobot_100_description'), 'urdf', 'jdcobot_100_description.urdf'))
->>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
     generate_launch_description()
