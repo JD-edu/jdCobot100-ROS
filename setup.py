@@ -30,7 +30,11 @@ setup(
 
     entry_points={
         'console_scripts': [
+<<<<<<< HEAD
             'js_5_pub = jdcobot_100_description.js_5_pub_test:main',
+=======
+            'js_5_pub_test = jdcobot_100_description.js_5_pub_test:main',
+>>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
             'jdcobot_control = jdcobot_100_description.jdcobot_control:main',
         ],
     },

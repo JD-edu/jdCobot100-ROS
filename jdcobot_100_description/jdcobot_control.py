@@ -48,11 +48,18 @@ class JointStateSubscriber(Node):
         shoulder = msg.position[1]*(180/3.14)
         forearm = msg.position[2]*(180/3.14)
         upperarm = msg.position[3]*(180/3.14)
+<<<<<<< HEAD
         gripper = msg.position[4]*(180/3.14)
         self.pub_count +=1
         if self.pub_count > 4: 
             #print(msg.position[0], msg.position[1], msg.position[2], msg.position[3],msg.position[4])
             cmd = "a"+str(int(base))+"b"+str(int(shoulder))+"c"+str(int(forearm))+"d"+str(int(upperarm))+ "e"+str(int(gripper))+"f\n"
+=======
+        self.pub_count +=1
+        if self.pub_count > 3: 
+            #print(msg.position[0], msg.position[1], msg.position[2], msg.position[3])
+            cmd = "a"+str(int(base))+"b"+str(int(shoulder))+"c"+str(int(forearm))+"d"+str(int(upperarm))+ "e92f\n"
+>>>>>>> 8b854a925ac64fde88564efda5b755bd5a590752
             print(cmd)
             self.ser.write(cmd.encode())
             self.pub_count = 0
