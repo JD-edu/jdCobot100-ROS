@@ -402,7 +402,7 @@ SOFTWARE.*/
     name="joint_6"
     type="prismatic">
     <origin
-      xyz="-0.007818 0.063831 0.1562"
+      xyz="-0.007818 0.063831 0.018"
       rpy="0 3.1416 1.5708" />
     <parent
       link="link_4" />
@@ -411,13 +411,13 @@ SOFTWARE.*/
     <axis
       xyz="0 0 1" />
     <limit
-      lower="0"
-      upper="0.03"
+      lower="0.001"
+      upper="0.003"
       effort="0"
       velocity="0" />
     <mimic
       joint="joint_5"
-      multiplier="0.05"
+      multiplier="0.0062"
       offset="0" />
   </joint>
 </robot>
