@@ -97,6 +97,7 @@ void loop() {
       set_servo(shoulder, shoulderAngle);
       set_servo(upperarm, upperarmAngle);
       set_servo(forearm, forearmAngle);
+      set_servo(gripper, gripperAngle);
   
   }
 }
