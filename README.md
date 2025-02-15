@@ -1,4 +1,4 @@
-# jdcobot_100_description
+# jdcobot_ros
 
 ros2 humble 기준으로 만들어진 패키지.
 
